@@ -21,7 +21,7 @@
 		<!-- Libraries versions -->
 		<activiti.version>6.0.1-SNAPSHOT</activiti.version>
 	    <spring.version>4.1.6.RELEASE </spring.version>
-		<spring.security.version>4.0.1.RELEASE</spring.security.version>
+		<spring-security.version>4.0.1.RELEASE</spring-security.version>
 		<hibernate.version>4.2.16.Final</hibernate.version>
 		<jackson.version>2.3.3</jackson.version>
 		<codahale.metrics.version>3.0.2</codahale.metrics.version>
@@ -370,27 +370,27 @@
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
-			<version>${spring.security.version}</version>
+			<version>${spring-security.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
-			<version>${spring.security.version}</version>
+			<version>${spring-security.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-crypto</artifactId>
-			<version>${spring.security.version}</version>
+			<version>${spring-security.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
-			<version>${spring.security.version}</version>
+			<version>${spring-security.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-ldap</artifactId>
-			<version>${spring.security.version}</version>
+			<version>${spring-security.version}</version>
 		</dependency>
         
         <!-- EMAIL -->
